@@ -5,6 +5,7 @@ public class FirstRepeating {
 	static void printFirstRepeatingArray(int[] arr) {
 		
 	int min = -1;
+	//in first branch
 	HashSet<Integer> set = new HashSet<>();
 	for(int i=arr.length-1; i>0; i--) 
 	{

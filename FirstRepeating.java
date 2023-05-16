@@ -15,7 +15,7 @@ public class FirstRepeating {
 		else
 			set.add(arr[i]);
 	}
-	
+	// add in third br
 	if(min!= -1)
 		System.out.println("First Repeating Element is "+arr[min]);
 	else
